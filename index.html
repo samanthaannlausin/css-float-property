@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samantha Ann Lausin | Resume</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#eaeaea;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+#resumeContainer{
+    width:8.5in;
+    min-height:11in;
+    background:#ffffff;
+    display:flex;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* LEFT COLUMN */
+.left{
+    width:35%;
+    background:#1f2937;
+    color:white;
+    padding:40px 25px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+.profile h1{
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.profile p{
+    font-size:13px;
+    font-weight:300;
+    margin-top:5px;
+    color:#d1d5db;
+}
+
+.section-title{
+    margin-top:30px;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    border-bottom:1px solid rgba(255,255,255,0.3);
+    padding-bottom:6px;
+    margin-bottom:15px;
+}
+
+.contact p,
+.skills li{
+    font-size:13px;
+    margin-bottom:8px;
+    line-height:1.5;
+}
+
+.skills ul{
+    list-style:none;
+}
+
+.skills li::before{
+    content:"• ";
+    color:#60a5fa;
+    font-weight:bold;
+}
+
+/* RIGHT COLUMN */
+.right{
+    width:65%;
+    padding:40px 35px;
+}
+
+.right h2{
+    font-size:18px;
+    font-weight:600;
+    color:#1f2937;
+    margin-bottom:15px;
+    border-bottom:2px solid #1f2937;
+    padding-bottom:5px;
+}
+
+.summary{
+    margin-bottom:25px;
+}
+
+.summary p{
+    font-size:14px;
+    line-height:1.6;
+    color:#444;
+}
+
+.item{
+    margin-bottom:20px;
+}
+
+.item h3{
+    font-size:15px;
+    font-weight:600;
+    color:#111;
+}
+
+.item span{
+    font-size:13px;
+    color:#666;
+}
+
+.item p{
+    font-size:14px;
+    margin-top:5px;
+    line-height:1.6;
+    color:#444;
+}
+
+@media print{
+    body{
+        background:white;
+        padding:0;
+    }
+
+    #resumeContainer{
+        box-shadow:none;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div id="resumeContainer">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+
+        <div class="profile">
+            <img src="pic.jpg" alt="Profile Picture">
+            <h1>Samantha Ann Lausin</h1>
+            <p>Computer Engineering Student</p>
+        </div>
+
+        <div class="section-title">Contact</div>
+        <div class="contact">
+            <p>📧 samanthaann08@gmail.com</p>
+            <p>📱 +63 981 737 0914</p>
+            <p>📍 Novaliches, Quezon City</p>
+            <p>🌐 github.com/samanthaannlausin</p>
+        </div>
+
+        <div class="section-title">Skills</div>
+        <div class="skills">
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React & Angular</li>
+                <li>Python & C++</li>
+                <li>Database Management</li>
+                <li>Arduino & Microcontrollers</li>
+                <li>WordPress</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <div class="summary">
+            <h2>About</h2>
+            <p>
+                Passionate Computer Engineering student with hands-on experience in 
+                web development, programming, and embedded systems. Skilled in building 
+                responsive applications and developing microcontroller-based projects. 
+                Eager to contribute technical expertise while continuously learning 
+                and adapting to new technologies.
+            </p>
+        </div>
+
+        <div>
+            <h2>Projects</h2>
+
+            <div class="item">
+                <h3>Language Translator Android App</h3>
+                <span>Android Development</span>
+                <p>
+                    Developed an Android application capable of translating English 
+                    phrases into 10+ languages with integrated audio playback 
+                    functionality and user-friendly interface.
+                </p>
+            </div>
+
+            <div class="item">
+                <h3>Tic-Tac-Toe Game Application</h3>
+                <span>Mobile Development</span>
+                <p>
+                    Built a customizable Android Tic-Tac-Toe game featuring smooth 
+                    animations, interactive UI, and responsive grid design.
+                </p>
+            </div>
+
+        </div>
+
+        <div>
+            <h2>Experience</h2>
+
+            <div class="item">
+                <h3>Web Developer Intern</h3>
+                <span>Internship Experience</span>
+                <p>
+                    Designed and implemented responsive websites using HTML, CSS, 
+                    JavaScript, and WordPress. Collaborated with team members to 
+                    enhance website functionality and user experience.
+                </p>
+            </div>
+
+            <div class="item">
+                <h3>Arduino Programming Projects</h3>
+                <span>Academic & Personal Projects</span>
+                <p>
+                    Developed automation systems and microcontroller-based solutions 
+                    for academic requirements and personal innovation projects.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
